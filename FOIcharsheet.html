@@ -1,0 +1,40 @@
+<div class="main">
+    <div class="header flex-center section">
+      <h1>Fallout: Interlock</h1>
+      <span>Character Sheet</span>
+    </div>
+    <div class="common section">
+      <label>Char name: <input name="attr_character_name" type="text"/></label>
+      <label>Background: <input name="attr_background" type="text" /></label>
+      <label>Stun Modifier: <input type="number" name="attr_stun_modifier" value="0"/></label>
+    </div>
+    <div class="skill section flex-col">
+      <label>Strength </label><input type="number" name="attr_str" value="5"/>
+      <label>Perception </label><input type="number" name="attr_per" value="5"/>
+      <label>Endurance </label><input type="number" name="attr_end" value="5"/>
+      <label>Charisma </label><input type="number" name="attr_cha" value="5"/>
+      <label>Intelligence </label><input type="number" name="attr_int" value="5"/>
+      <label>Luck </label><input type="number" name="attr_luck" value="5"/>
+    </div>
+    <div class="power section flex-col">
+      <label>Power</label>
+      <fieldset class="repeating_power">
+          <input name="attr_power" type="text" />
+      </fieldset>
+    </div>
+    <div class="attack section">
+      <label>Attacks</label>
+      <textarea name="attr_attacks"></textarea>
+    </div>
+    <div class="inv section">
+      <label>Inventory</label>
+      <textarea name="attr_inventory"></textarea>
+    </div>
+    <div class="misc section">
+      <label>Physical Description</label>
+      <textarea name="attr_description"></textarea>
+    </div>
+    <div class="footer flex-col">
+      <span>Generic copyright disclaimer</span>
+    </div>
+</div>
